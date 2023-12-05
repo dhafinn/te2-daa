@@ -253,9 +253,6 @@ class BranchBound {
     }
   }
 
-  // Other methods implementation remains the same...
-  // (calculate_upper_bound, step1_initialize, step2_develop, step3_backtrack, step4_replace_item, branch_and_bound, solve)
-
   public void branchAndBound() {
     int[][] result = step1Initialize();
     int[] x = result[0];
